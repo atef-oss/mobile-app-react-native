@@ -1,0 +1,114 @@
+/* global styles */
+
+.background {
+  background-color: #f7f7f7;
+}
+
+.app-container {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #2e6e33;
+}
+
+.error-message {
+  color: #f00;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.error-message strong {
+  font-weight: bold;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.modal-footer {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* tablet landscape */
+@media only screen and (min-width: 768px) {
+  .app-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1200px) {
+  .app-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
